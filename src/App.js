@@ -8,7 +8,6 @@ function App() {
   const [fromPrice, setFromPrice] = React.useState(0);
   const [toPrice, setToPrice] = React.useState(1);
 
-  // const [rates, setRates] = React.useState({});
   const ratesRef = React.useRef({});
 
   React.useEffect(() => {
